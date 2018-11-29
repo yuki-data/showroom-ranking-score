@@ -46,6 +46,11 @@ def request_ranking_info(url_top, force_if_event_inactive=False, time_interval=0
         df["current_score"] = df.room_id.apply(
             get_current_score, time_interval=time_interval, session=s)
     df.current_score = pd.to_numeric(df.current_score)
+
+    tz = pytz.timezone('Asia/Tokyo')
+    now = datetime.datetime.now(tz).replace(second=0, microsecond=0, tzinfo=None)
+    df["Date"] = now
+
     return df
 
 
