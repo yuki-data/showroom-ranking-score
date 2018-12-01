@@ -1,5 +1,5 @@
 # Showroom Event Ranking Score
-showroomのオーディションの獲得ポイントを取得する。
+[SHOWROOM(ショールーム)](https://www.showroom-live.com/)のオーディションの獲得ポイントを取得する。
 ランキング形式で競うイベントのみ(レベル形式のイベントでは使用できない)。
 
 ## 使い方
@@ -19,7 +19,7 @@ showroomのオーディションの獲得ポイントを取得する。
     plt.savefig("temp.png")
     plt.close()
 
-これで、画像のようなグラフを得る。
+これで、次のようなグラフを得る。
 
 ![ske48_9th_audition ranking score](./assets/temp.png)
 
