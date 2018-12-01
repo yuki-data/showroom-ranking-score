@@ -9,6 +9,19 @@ import matplotlib.pyplot as plt
 
 
 def request_ranking_info(url_top, force_if_event_inactive=False, time_interval=0.5):
+    """showroom-live.comのランキング型イベントの獲得ポイントを取得する。
+
+    Parameters
+    ----------
+    url_top: (string) イベントページのurl
+    force_if_event_inactive: (bool) イベントが開催期間中でなくてもデータを取得する。
+    time_interval: (numeric) 獲得ポイントを得る1つ取得する度に動作を休止する時間。
+
+    Returns
+    -------
+    (pandas.DataFrame) イベント参加者の配信ページurlや獲得ポイントを含むデータ
+
+    """
 
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
     # url_top = "https://www.showroom-live.com/event/kiwami_audition2"
