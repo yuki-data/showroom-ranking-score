@@ -19,7 +19,8 @@ showroomのオーディションの獲得ポイントを取得する。
     plt.savefig("temp.png")
     plt.close()
 
-これで、次のような画像を得る。
+これで、画像のようなグラフを得る。
+
 ![ske48_9th_audition ranking score](./assets/temp.png)
 
-他のイベントでも、`event_page_url = "https://www.showroom-live.com/event/ske48_9th_audition"の部分をイベントurlに変更することで使用できる。`
+他のイベントでも、`event_page_url = "https://www.showroom-live.com/event/ske48_9th_audition"`の部分をイベントurlに変更することで使用できる。`
