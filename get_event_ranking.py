@@ -119,4 +119,6 @@ if __name__ == '__main__':
     plt.title('showroomランキング')
     _ = plt.xlabel("現在のポイント")
     _ = plt.ylabel("")
+    plt.tight_layout()
     plt.savefig("temp.png")
+    plt.close()
