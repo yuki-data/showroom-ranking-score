@@ -24,3 +24,6 @@
 ![ske48_9th_audition ranking score](./assets/temp.png)
 
 他のイベントでも、`event_page_url = "https://www.showroom-live.com/event/ske48_9th_audition"`の部分をイベントurlに変更することで使用できる。`
+
+## License
+本コードの利用にはMIT Licenseが適用されます。
